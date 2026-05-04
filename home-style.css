@@ -52,7 +52,6 @@ classes of the different collumns in the dashboard.
   flex-direction: column;
   margin: 1vw;
   margin-top: 5vw;
-  border: 1px solid #28356E;
 }
 
 /*
@@ -61,20 +60,29 @@ collumns
 
 #sidebar {
   align-items: center;
-  min-width: 10vw;
+  min-width: 3vw;
+  border: 1px solid #28356E;
+  border-radius: 4.8vw;
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+  gap: 6.5rem;
+
 }
 
 #stats {
   min-width: 25vw;
+  border: 1px solid #28356E;
 }
 
 #weekly-summary {
   align-items: center;
   min-width: 10vw;
+  border: 1px solid #28356E;
 }
 
 #accounts-subscriptions {
   align-items: center;
   min-width: 10vw;
+  border: 1px solid #28356E;
 }
 
