@@ -4,24 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shafi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Katibeh&family=Oregano:ital@0;1&family=Radley:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="home-style.css">
 </head>
 <body>
     <header>
-        <p>@Shay</p>
-        <p>00:00</p>
-        <p>Song Name // Artist</p>
-        <h1>DASHBOARD</h1>
+        <div class="top-bar">
+            <p>@userName</p>
+            <p>00:00</p>
+            <p>Song Name // Artist</p>
+        </div>
     </header>
+
     <main>
-        <p>Welcome Shay . . .</p>
-        <p>Net-Worth:</p>
-        <p>Total Balance:</p>
-        <p>Credit Limit:</p>
-        <p>Weekly Summary:</p>
-        <p>April 1:</p>
-        <p>April 2</p>
-        <p>Accounts:</p>
-        <p>Subscriptions:</p>
+        <div class="container">
+            <div class="blocks" id="sidebar">
+                <button type="button">Dashboard</button>
+                <button type="button">Transactions</button>
+                <button type="button">Monthly Overview</button>
+                <button type="button">Budgeting</button>
+            </div>
+            <div class="blocks" id="stats">
+                <h1>DASHBOARD</h1>
+                <p>Welcome Shay . . .</p>
+                <p>Net-Worth:</p>
+                <p>Total Balance:</p>
+                <p>Credit Limit:</p>
+            </div>
+            <div class="blocks" id="weekly-summary">
+                <p>Weekly Summary:</p>
+                <p>April 1:</p>
+                <p>April 2</p>
+            </div>
+            <div class="blocks" id="accounts-subscriptions">
+                <p>Accounts:</p>
+                <p>Subscriptions:</p>
+            </div>
+        </div>
     </main>
 </html>

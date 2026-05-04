@@ -1,0 +1,80 @@
+p {
+  color: #28356E
+}
+
+body {
+  font-family: 'Katibeh', 'Arial', 'sans-serif';
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0vw;
+  padding: 0vw;
+  border: none;
+}
+
+/*
+handles the top bar: name, song time, song name, and artist name
+*/
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0vw;
+  margin-top: 0vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #28356E;
+}
+
+h1{ 
+  color: #28356E;
+  font-size: 3rem;
+  letter-spacing: .1rem;
+}
+
+/*
+handles all the div collumns in the dashboard.
+*/
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/*
+classes of the different collumns in the dashboard.
+*/
+.blocks {
+  display: flex;
+  flex-direction: column;
+  margin: 1vw;
+  margin-top: 5vw;
+  border: 1px solid #28356E;
+}
+
+/*
+collumns
+*/
+
+#sidebar {
+  align-items: center;
+  min-width: 10vw;
+}
+
+#stats {
+  min-width: 25vw;
+}
+
+#weekly-summary {
+  align-items: center;
+  min-width: 10vw;
+}
+
+#accounts-subscriptions {
+  align-items: center;
+  min-width: 10vw;
+}
+
