@@ -42,6 +42,7 @@ handles all the div collumns in the dashboard.
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  gap: 1vw;
 }
 
 /*
@@ -70,19 +71,23 @@ collumns
 }
 
 #stats {
-  min-width: 25vw;
+  min-width: 30vw;
   border: 1px solid #28356E;
+  margin-left: -6vw;
+  margin-right: -6vw;
+
 }
 
 #weekly-summary {
   align-items: center;
-  min-width: 10vw;
+  min-width: 20vw;
   border: 1px solid #28356E;
+  margin-right: -6vw;
 }
 
 #accounts-subscriptions {
   align-items: center;
-  min-width: 10vw;
+  min-width: 15vw;
   border: 1px solid #28356E;
 }
 
