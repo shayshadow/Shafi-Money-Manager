@@ -53,6 +53,8 @@ classes of the different collumns in the dashboard.
   flex-direction: column;
   margin: 1vw;
   margin-top: 5vw;
+  max-height: 75vh;
+  min-height: 50vh;
 }
 
 /*
@@ -64,30 +66,152 @@ collumns
   min-width: 3vw;
   border: 1px solid #28356E;
   border-radius: 4.8vw;
-  padding-top: 6vw;
-  padding-bottom: 6vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
   gap: 6.5rem;
 
 }
 
 #stats {
   min-width: 30vw;
-  border: 1px solid #28356E;
-  margin-left: -6vw;
+  margin-left: -5vw;
   margin-right: -6vw;
+}
 
+/*
+stat intricates
+*/
+
+.welcome {
+  display: flex;
+  border: 1px solid #28356E;
+  min-height: 20vh;
+  margin-top: 2vw;
+  font-size: 2rem;
+  padding: 2vw;
+}
+
+.money-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.25rem;
+}
+
+/*
+money stats intricates
+*/
+
+.networth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+
+.total-balance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+
+.amount {
+  border: 1px solid #28356E;
+  padding: 0.5vw;
+  border-radius: 2vw;
+  padding: 2vw;
+}
+
+.credit-limit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.25rem;
 }
 
 #weekly-summary {
-  align-items: center;
   min-width: 20vw;
-  border: 1px solid #28356E;
   margin-right: -6vw;
+  font-size: 1.25rem;
+  overflow-y: scroll;
+}
+
+/*
+  Weekly summary intricates
+*/
+
+.weekdays {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1vw; 
+  margin-bottom: 1vw;
+}
+
+.transaction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #28356E;
+  border-radius: 5vw;
+  padding: 1vw;
+  width: 80%;
+  margin: 2%;
 }
 
 #accounts-subscriptions {
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   min-width: 15vw;
-  border: 1px solid #28356E;
+  font-size: 1.25rem;
 }
 
+/*
+accounts and subscriptions intricates
+*/
+
+.title {
+  display: flex;
+  font-size: 1.5rem;
+  margin-top: 1vw;
+}
+
+/*
+accounts intricates
+*/
+
+.account-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account {
+  border: 1px solid #28356E;
+  border-radius: 2vw;
+  padding: 1vw;
+  margin-top: 1vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+/*
+  subscriptions intricates
+*/
+.subscription-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscription {
+  border: 1px solid #28356E;
+  border-radius: 2vw;
+  padding: 1vw;
+  margin-top: 1vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
