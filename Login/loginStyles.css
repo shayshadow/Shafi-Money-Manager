@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*{
+  font-family: 'Katibeh', 'Arial', sans-serif;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  height: auto;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #28356e;
+  width: auto;
+  margin-top: 20vh;
+  border-radius: 6vw;
+  padding: 5vw;
+  padding-top: 2vw;
+  letter-spacing: 0.5vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+#username {
+  font-size: 2rem;
+}
+
+p {
+  display: flex;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  align-items: center;
+}
+
+/*username and password inputs + button*/
+
+input {
+  display: flex;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #28356e;
+  text-align: center;
+  width: auto;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2vw;
+}
+
+.button {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
