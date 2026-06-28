@@ -41,8 +41,10 @@ handles all the div collumns in the dashboard.
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  gap: 1vw;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2vw;
+  padding: 0 5vw;
 }
 
 /*
@@ -51,7 +53,6 @@ classes of the different collumns in the dashboard.
 .blocks {
   display: flex;
   flex-direction: column;
-  margin: 1vw;
   margin-top: 5vw;
   max-height: 75vh;
   min-height: 50vh;
@@ -66,7 +67,9 @@ collumns
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  min-width: 3vw;
+  width: 6vw;
+  min-width: 5vw;
+  flex-shrink: 0;
   border: 1px solid #28356E;
   border-radius: 4.8vw;
   padding-top: 5vw;
@@ -76,9 +79,7 @@ collumns
 }
 
 #stats {
-  min-width: 30vw;
-  margin-left: -5vw;
-  margin-right: -6vw;
+  flex: 2;
 }
 
 /*
@@ -92,6 +93,7 @@ stat intricates
   margin-top: 2vw;
   font-size: 2rem;
   padding: 2vw;
+  border-radius: 2vw;;
 }
 
 .money-stats {
@@ -128,8 +130,8 @@ money stats intricates
 }
 
 #weekly-summary {
-  min-width: 20vw;
-  margin-right: -6vw;
+  flex: 1.2;
+  margin-right: 0;
   font-size: 1.25rem;
   overflow-y: scroll;
 }
@@ -162,7 +164,7 @@ money stats intricates
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  min-width: 15vw;
+  flex: 1;
   font-size: 1.25rem;
 }
 
@@ -180,8 +182,10 @@ subscriptions intricates
   subscriptions intricates
 */
 .subscription-list {
-  min-width: 20vw;
-  margin-right: -6vw;
+  min-width: 0;
+  width: 100%;
+  margin-right: 0;
+  width: 100%;
   font-size: 1.25rem;
   overflow-y: scroll;
   margin-top: 3.5vw;
