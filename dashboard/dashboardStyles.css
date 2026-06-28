@@ -133,7 +133,13 @@ money stats intricates
   flex: 1.2;
   margin-right: 0;
   font-size: 1.25rem;
-  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.weekly-content {
+  overflow-y: auto;
+  max-height: 65vh;
 }
 
 /*
@@ -201,3 +207,4 @@ subscriptions intricates
   width: 80%;
   margin: 2%;
 }
+
