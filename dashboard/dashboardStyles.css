@@ -26,6 +26,7 @@ handles the top bar: name, song time, song name, and artist name
   margin-right: 5vw;
   margin-left: 5vw;
   font-size: 1.5rem;
+  padding-bottom: 1vh;
   border-bottom: 1px solid #28356E;
 }
 
@@ -53,9 +54,9 @@ classes of the different collumns in the dashboard.
 .blocks {
   display: flex;
   flex-direction: column;
-  margin-top: 5vw;
+  margin-top: 3vw;
   max-height: 75vh;
-  min-height: 50vh;
+  min-height: 60vh;
 }
 
 /*
@@ -139,7 +140,8 @@ money stats intricates
 
 .weekly-content {
   overflow-y: auto;
-  max-height: 65vh;
+  max-height: 70vh;
+  min-height: 65vh;
 }
 
 /*
